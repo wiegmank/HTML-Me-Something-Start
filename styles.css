@@ -1,1 +1,40 @@
 /* Write your CSS here! */
+body {
+    margin: 8px;
+    display: block;
+    font-family: Verdana, Tahoma, sans-serif;
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#mainHeading {
+    color:blue;
+    text-align: center;
+    font-family: Georgia;
+}
+
+.funParagraph {
+    background-color: khaki;
+}
+
+div.slideshow {
+    overflow: auto;
+    white-space: nowrap;
+    padding: 10px;
+}
+
+div.slideshow > img {
+    width: 30%
+}
+
+article > img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+article > h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
