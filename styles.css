@@ -1,22 +1,121 @@
-/* Write your CSS here! */
+/* ELEMENTS */
 body {
-    margin: 8px;
-    display: block;
+    background-color: white;
+    margin: 8px; /* REQUIRED */
+    padding: 0px;
+    display: block; /* REQUIRED */
     font-family: Verdana, Tahoma, sans-serif;
+    font-size: 12pt;
+    font-weight: normal; 
+    color: gray20;
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+header {
+    background-color: peru;
+    height: auto;
+    padding: 20px;
+    margin: 0px;
+}
+
+main {
+    width: 100%;
+    padding: 40px 100px;
+    box-sizing: border-box;
+}
+
+footer > p {
+    background-color: peru;
+    text-align: center;
+    height: auto;
+    padding: 20px;
+    margin: 0px;
 }
 
 h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 5em;
+    font-weight: bolder;
+    margin: 5px 0px 10px;
 }
 
-#mainHeading {
-    color:blue;
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2em;
+    font-weight: bold;
     text-align: center;
-    font-family: Georgia;
 }
 
-.funParagraph {
-    background-color: khaki;
+h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+p {
+    text-align: justify;
+}
+
+img {
+    width: 700px;
+    margin: 20px 0px 30px;
+    border-radius: 25px;
+    border: 5px solid peru;
+}
+
+hr {
+    background-color: peru;
+    margin: 15px 0px 25px;
+    height: .3em;
+    /* this or border for gallery?? */
+}
+
+/* IDS */
+
+#mainHeading { /* heading id name REQUIRED */
+    text-decoration: underline;
+    text-align: center;
+    font-family: Arial;
+}
+
+#img1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    height: auto;
+}
+
+#img2 {
+    float: right;
+    margin: 0px 10px 10px 30px;
+    width: 100%;
+    max-width: 300px;
+    height: auto; 
+}
+
+
+#img3 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    height: auto;
+
+}
+
+/* CLASSES */
+
+.clearfix {
+    overflow: auto;
+}
+
+.funParagraph { /* id testP and class funParagraph REQUIRED */
+    font-style: oblique;
+    text-align: center;
+    margin: 30px;
 }
 
 div.slideshow {
@@ -26,15 +125,14 @@ div.slideshow {
 }
 
 div.slideshow > img {
-    width: 30%
+    width: 40%;
+    border: none;
 }
 
+/*
 article > img {
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
-
-article > h2 {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
+*/
