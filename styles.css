@@ -78,6 +78,7 @@ hr {
     text-decoration: underline;
     text-align: center;
     font-family: Arial;
+    color: red;
 }
 
 #img1 {
@@ -116,6 +117,7 @@ hr {
     font-style: oblique;
     text-align: center;
     margin: 30px;
+    color: green;
 }
 
 div.slideshow {
